@@ -1,0 +1,39 @@
+﻿Build started 2016/5/22 15:28:30.
+     1>Project "E:\DEMO\14班\5-20Matrix\SparseMatrix\SparseMatrix\SparseMatrix.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         D:\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt SparseMatrix.cpp
+         SparseMatrix.cpp
+     1>e:\demo\14班\5-20matrix\sparsematrix\sparsematrix\sparsematrix.cpp(31): warning C4018: '<' : signed/unsigned mismatch
+                 e:\demo\14班\5-20matrix\sparsematrix\sparsematrix\sparsematrix.cpp(24) : while compiling class template member function 'SparseMatrix<int>::SparseMatrix(const T *,size_t,size_t,T)'
+                 with
+                 [
+                     T=int
+                 ]
+                 e:\demo\14班\5-20matrix\sparsematrix\sparsematrix\sparsematrix.cpp(118) : see reference to function template instantiation 'SparseMatrix<int>::SparseMatrix(const T *,size_t,size_t,T)' being compiled
+                 with
+                 [
+                     T=int
+                 ]
+                 e:\demo\14班\5-20matrix\sparsematrix\sparsematrix\sparsematrix.cpp(118) : see reference to class template instantiation 'SparseMatrix<int>' being compiled
+     1>e:\demo\14班\5-20matrix\sparsematrix\sparsematrix\sparsematrix.cpp(33): warning C4018: '<' : signed/unsigned mismatch
+     1>e:\demo\14班\5-20matrix\sparsematrix\sparsematrix\sparsematrix.cpp(49): warning C4018: '<' : signed/unsigned mismatch
+                 e:\demo\14班\5-20matrix\sparsematrix\sparsematrix\sparsematrix.cpp(45) : while compiling class template member function 'SparseMatrix<int> SparseMatrix<int>::Transport(void)'
+                 e:\demo\14班\5-20matrix\sparsematrix\sparsematrix\sparsematrix.cpp(120) : see reference to function template instantiation 'SparseMatrix<int> SparseMatrix<int>::Transport(void)' being compiled
+     1>e:\demo\14班\5-20matrix\sparsematrix\sparsematrix\sparsematrix.cpp(51): warning C4018: '<' : signed/unsigned mismatch
+     1>e:\demo\14班\5-20matrix\sparsematrix\sparsematrix\sparsematrix.cpp(70): warning C4018: '<' : signed/unsigned mismatch
+                 e:\demo\14班\5-20matrix\sparsematrix\sparsematrix\sparsematrix.cpp(63) : while compiling class template member function 'SparseMatrix<int> SparseMatrix<int>::FastTransport(void)'
+                 e:\demo\14班\5-20matrix\sparsematrix\sparsematrix\sparsematrix.cpp(121) : see reference to function template instantiation 'SparseMatrix<int> SparseMatrix<int>::FastTransport(void)' being compiled
+     1>e:\demo\14班\5-20matrix\sparsematrix\sparsematrix\sparsematrix.cpp(74): warning C4018: '<' : signed/unsigned mismatch
+     1>e:\demo\14班\5-20matrix\sparsematrix\sparsematrix\sparsematrix.cpp(76): warning C4018: '<' : signed/unsigned mismatch
+     1>e:\demo\14班\5-20matrix\sparsematrix\sparsematrix\sparsematrix.cpp(91): warning C4018: '<' : signed/unsigned mismatch
+                 e:\demo\14班\5-20matrix\sparsematrix\sparsematrix\sparsematrix.cpp(89) : while compiling class template member function 'void SparseMatrix<int>::Display(void)'
+                 e:\demo\14班\5-20matrix\sparsematrix\sparsematrix\sparsematrix.cpp(119) : see reference to function template instantiation 'void SparseMatrix<int>::Display(void)' being compiled
+     1>e:\demo\14班\5-20matrix\sparsematrix\sparsematrix\sparsematrix.cpp(93): warning C4018: '<' : signed/unsigned mismatch
+       Link:
+         D:\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\DEMO\14班\5-20Matrix\SparseMatrix\Debug\SparseMatrix.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\DEMO\14班\5-20Matrix\SparseMatrix\Debug\SparseMatrix.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\DEMO\14班\5-20Matrix\SparseMatrix\Debug\SparseMatrix.lib" /MACHINE:X86 Debug\SparseMatrix.obj
+         SparseMatrix.vcxproj -> E:\DEMO\14班\5-20Matrix\SparseMatrix\Debug\SparseMatrix.exe
+     1>Done Building Project "E:\DEMO\14班\5-20Matrix\SparseMatrix\SparseMatrix\SparseMatrix.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.54
